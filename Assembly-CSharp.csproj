@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{FFCFE185-AC6F-8306-E3DB-D17A3CA13590}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;WWW_USE_CURL;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT;MOBILE_INPUT;VUFORIA_IOS_SETTINGS;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\07 - Inputs\Example07LengthValidation.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\07 - Inputs\Example07LetterValidation.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\08 - Sliders\Example08.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\09 - Progress Indicators\Example09.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\10 - Vector Images\Example10.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\13 - Toasts &amp; Snackbars\Example13.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\14 - Dialogs\Example14.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\15 - Pickers\Example15.cs" />
+     <Compile Include="Assets\MaterialUI\Examples\Scripts\19 - Animation\Example19.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Animation\AutoTween.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Animation\EasyTween.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Animation\Tween.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\ColorCopier.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\DragEventSender.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\Interfaces.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\MaterialUIScaler.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\RectTransformSnap.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\Ripples\MaterialRipple.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\Ripples\Ripple.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\Ripples\RippleManager.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\Shadows\AnimatedShadow.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\Shadows\MaterialShadow.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\Shadows\ShadowGenerator.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\SpriteSwapper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\ToggleBase.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Common\VerticalScrollLayoutElement.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Buttons\MaterialButton.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Buttons\MaterialMovableFab.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogAlert.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogAnimator.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogBackground.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogCheckboxList.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogCheckboxOption.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogClickableItem.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogProgress.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogPrompt.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogRadioList.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogRadioOption.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogSections.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogSimpleList.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\DialogSimpleOption.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\MaterialDialog.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\Pickers\DatePicker\DialogDatePicker.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\Pickers\DatePicker\DialogDatePickerDayItem.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\Pickers\DatePicker\DialogDatePickerYearItem.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\Pickers\DatePicker\DialogDatePickerYearList.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\Pickers\TimePicker\DialogTimePicker.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Dialogs\Pickers\TimePicker\DialogTimePickerClock.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\MaterialCheckbox.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\MaterialDropdown.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\MaterialInputField.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\MaterialNavDrawer.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\MaterialSlider.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\MaterialSwitch.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Menus\DropdownTrigger.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\OptionData.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\OverscrollConfig.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Progress\CircularProgressIndicator.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Progress\LinearProgressIndicator.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Progress\ProgressIndicator.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\RadioGroups\MaterialRadio.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\RadioGroups\MaterialRadioGroup.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Screens\MaterialScreen.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Screens\ScreenView.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Snackbars\Snackbar.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Snackbars\SnackbarAnimator.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Tabs\TabItem.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Tabs\TabPage.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Tabs\TabPagesScrollDetector.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Tabs\TabView.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Toasts\Toast.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\Toasts\ToastAnimator.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\VectorImages\ImageData.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\VectorImages\MaterialIconEnum.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\VectorImages\MaterialIconHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\VectorImages\MaterialUIIconHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\VectorImages\Model\Glyph.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\VectorImages\Model\VectorImageData.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\VectorImages\Model\VectorImageSet.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\VectorImages\VectorImage.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Components\VectorImages\VectorImageManager.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Managers\DialogManager.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Managers\PrefabManager.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Managers\SnackbarManager.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Managers\ToastManager.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\Managers\TweenManager.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\AdaptiveUIGrid.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\ContinuationManager.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\EditorCoroutine.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\EditorUpdate.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\Extensions.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\FPSCounter.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\HSBColor.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\ImageHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InputFieldValidators\TextValidatorUtils.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\ButtonRectInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\ButtonRoundInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\CircleProgressIndicatorInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\DividerInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\EmptyUIObjectInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\InputFieldInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\InstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\MaterialSliderInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\PanelInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\RadioInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\TabViewInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\InstantiationHelpers\ToggleInstantiationHelper.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\MaterialColor.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\MaterialUIVersion.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\TextUnicode.cs" />
+     <Compile Include="Assets\MaterialUI\Scripts\MaterialUtils\TextureUtils.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\LitJson\IJsonWrapper.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\LitJson\JsonData.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\LitJson\JsonException.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\LitJson\JsonMapper.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\LitJson\JsonMockWrapper.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\LitJson\JsonReader.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\LitJson\JsonWriter.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\LitJson\Lexer.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\LitJson\ParserToken.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\PropertyDrawers\ObserveAttribute\ObserveAttribute.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\PropertyDrawers\PopupAttribute\PopupAttribute.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCCamManager.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCCarChange.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCCockpitCamera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCResetScene.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Demo Scene Scripts\RCCWheelCamera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Enter-Exit\RCCEnterExitCar.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\Enter-Exit\RCCEnterExitPlayer.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\For NGUI\RCCNGUIController.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCAIBrakeZone.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCAIBrakeZonesContainer.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCAICarController.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCAIWaypointsContainer.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCameraOrbit.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCarCamera.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCarCameraConfig.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCarControllerV2.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCharacterController.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCChildFixedCam.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCCreateAudioSource.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCDashboardInputs.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCMainFixedCam.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCMobileButtons.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCShadowRotConst.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCSkidmarks.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCTruckTrailer.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCUIController.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCUIDashboardButton.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCUIDashboardDisplay.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\RCCWheelCollider.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Scripts\TerrainSurface.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Scripts\FireLight.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\RealisticCarControllerV2\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DatabaseLoadBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DeviceTrackerBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DigitalEyewearBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\KeepAliveBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MarkerBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SmartTerrainTrackerBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundManager.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WebCamBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\_MyAsset\_Script\BackHome.cs" />
+     <Compile Include="Assets\_MyAsset\_Script\CarReset.cs" />
+     <Compile Include="Assets\_MyAsset\_Script\CarRotate.cs" />
+     <Compile Include="Assets\_MyAsset\_Script\LoadCarModel.cs" />
+     <Compile Include="Assets\_MyAsset\_Script\SlideShowController.cs" />
+     <None Include="Assets\RealisticCarControllerV2\Scripts\RCCSkidmarks.shader" />
+     <None Include="Assets\SF-Pack Mobile\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\Rain.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\ISUZO.xml" />
+     <None Include="Assets\SF-Pack Mobile\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\SF-Pack Mobile\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\RealtimeReflectionInWaterFlow.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\Cursor.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\ParticleAdditiveBlend.shader" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\AdditiveBlend.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\RealtimeReflectionReplacement.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\Additive.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\ReflectiveBackgroundArbitrary.shader" />
+     <None Include="Assets\MaterialUI\README.txt" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\ReflectiveBackgroundSelfIllumination.shader" />
+     <None Include="Assets\RealisticCarControllerV2\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\SF-Pack Mobile\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\RCK\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\ScreenRefract.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\RainSplash.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\Fallback.shader" />
+     <None Include="Assets\RCK\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\Multiply.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\Blend.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\HeightFogBeforeTransparent.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\CharacterSelfIlluminationReflective.shader" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\RCK\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\InterlacePatternBlend.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\PlanarRealtimeReflection.shader" />
+     <None Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\ReflectiveBackgroundPlanar.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\EnemySelfIlluminationReflective.shader" />
+     <None Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\AngryInclude.cginc" />
+     <None Include="Assets\SF-Pack Mobile\Source\Scripts\MobileBloom.shader" />
+     <None Include="Assets\MaterialUI\Fonts\Roboto\NOTICE.txt" />
+     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\ParticleMultiply.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\ParticleAdditive.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\SF-Pack Mobile\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\SF-Pack Mobile\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\StreamingAssets\QCAR\qcardForSpaceship.xml" />
+     <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
+     <None Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\RealisticCarControllerV2\Standard Assets\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\AlphaCutoutCheapFallback.shader" />
+     <None Include="Assets\MaterialUI\CHANGELOG.txt" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\LaserScope.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
+     <None Include="Assets\SF-Pack Mobile\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\SF-Pack Mobile\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\SF-Pack Mobile\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\RealisticCarControllerV2\Standard Assets\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\RealisticCarControllerV2\LICENSE - Read Me!.txt" />
+     <None Include="Assets\RealisticCarControllerV2\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\ParticleBlend.shader" />
+     <None Include="Assets\RealisticCarControllerV2\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\SF-Pack Mobile\Source\Shaders\Fx\InterlacePatternAdditive.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>/Users/MilkCommunications/Documents/MyDocumentsCAST/MyProject/Unity/Unity5 AR/AR Car Show Presentation/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{636E330C-6899-CDE9-326E-011C8C80ADC4}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_MyAsset/_Scene/Volvo/Scene_0_Intro.unity
+  isLoaded: 1
+  isActive: 1

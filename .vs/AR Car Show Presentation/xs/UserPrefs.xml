@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{39F736F8-895D-759A-388B-A1139831D037}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_MyAsset/_VolvoAsset/_Script/QuotesCalculation.cs">
+    <Files>
+      <File FileName="Assets/_MyAsset/_Script/SlideShowController.cs" Line="1" Column="1" />
+      <File FileName="Assets/_MyAsset/_Script/LoadCarModel.cs" Line="5" Column="40" />
+      <File FileName="Assets/_MyAsset/_VolvoAsset/_Script/VolvoCanvas.cs" Line="27" Column="46" />
+      <File FileName="Assets/_MyAsset/_VolvoAsset/_Script/VolvoIntroCanvas.cs" Line="41" Column="9" />
+      <File FileName="Assets/_MyAsset/_VolvoAsset/_Script/QuotesCalculation.cs" Line="27" Column="49" />
+      <File FileName="Assets/_MyAsset/_VolvoAsset/_Script/Detailer.cs" Line="208" Column="24" />
+      <File FileName="Assets/_MyAsset/_Script/Humberger.cs" Line="12" Column="6" />
+      <File FileName="Assets/_MyAsset/_VolvoAsset/_Script/GlobalMenu.cs" Line="7" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AR Car Show Presentation" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="_MyAsset" expanded="True">
+                <Node name="_Script" expanded="True" />
+                <Node name="_VolvoAsset" expanded="True">
+                  <Node name="_Script" expanded="True">
+                    <Node name="QuotesCalculation.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Editor" expanded="True">
+                <Node name="CrossPlatformInput" expanded="True" />
+              </Node>
+              <Node name="RealisticCarControllerV2" expanded="True">
+                <Node name="Standard Assets" expanded="True">
+                  <Node name="ParticleSystems" expanded="True">
+                    <Node name="Scripts" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Vuforia" expanded="True">
+                <Node name="Editor" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AR_220Car_220Show_220Presentation PreferredExecutionTarget="b228d27c-839b-4d94-9596-8499db5f2333" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
